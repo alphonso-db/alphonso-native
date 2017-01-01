@@ -34,5 +34,12 @@ jspm_packages
 # Optional npm cache directory
 .npm
 
+# Other cache directory
+react-native-packager-cache-*
+haste-map-react-native-*
+android/app/build/
+android/build/
+android/.gradle/
+
 # Optional REPL history
 .node_repl_history
