@@ -1,9 +1,10 @@
 {
-	"name": "myapp",
+	"name": "alphonso",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"start": "react-native start",
+		"droid": "react-native run-android",
 		"test": "jest"
 	},
 	"dependencies": {
