@@ -2,12 +2,13 @@
   "name": "alphonso",
   "version": "0.0.1",
   "scripts": {
-    "bundle:droid": "react-native start",
+    "bundle": "react-native start",
     "start:droid": "react-native run-android",
+    "start:ios": "react-native run-ios",
     "clean": "rimraf ./react-native-packager-cache-*",
-    "test:droid": "jest",
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "test": "jest",
+    "lint": "eslint './src'",
+    "lint:fix": "eslint --fix './src'"
   },
   "dependencies": {
     "react": "15.4.1",
